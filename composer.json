@@ -1,0 +1,9 @@
+{
+    "name": "clothline/clothline",
+    "description": "Clothline e-commerce storefront + admin backend",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
