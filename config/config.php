@@ -43,10 +43,10 @@ function env(string $key, ?string $default = null): ?string
 }
 
 // --- Database ---
-define('DB_HOST', env('DB_HOST', '127.0.0.1'));
-define('DB_PORT', env('DB_PORT', '3306'));
-define('DB_NAME', env('DB_NAME', 'clean_wears'));
-define('DB_USER', env('DB_USER', 'root'));
+define('DB_HOST', env('DB_HOST', ''));
+define('DB_PORT', env('DB_PORT', ''));
+define('DB_NAME', env('DB_NAME', ''));
+define('DB_USER', env('DB_USER', ''));
 define('DB_PASS', env('DB_PASS', ''));
 
 // --- App ---
